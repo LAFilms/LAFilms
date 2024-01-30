@@ -680,6 +680,9 @@ a {
 
 .centrin {
 
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
 }
