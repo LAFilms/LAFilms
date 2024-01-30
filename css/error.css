@@ -1,0 +1,177 @@
+.container {
+
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+
+}
+  
+  .clearfix {
+    overflow: auto;
+  
+}
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.center {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;} 
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+body {
+
+    background-color: #C62222;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+p {
+
+    line-height: 2;
+}
+
+.error {
+
+    
+    width: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* Estilização da checkbox */
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkbox-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    padding: 5px;
+  }
+  
+  .checkbox-container input:checked ~ .checkbox-custom {
+    background-color: #ff9090;
+  }
+  
+  .checkbox-custom::after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkbox-custom::after {
+    display: block;
+  }
+  
+  .checkbox-custom::after {
+    content: "";
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 4px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .checkbox-container input:focus ~ .checkbox-custom {
+    box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.5);
+  }
+  
+
+
+
+
+
+
+
+
+  .right {
+
+    float: right; 
+  }
+
+  
+
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ca4d4d;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    color: #ca4d4d;
+  }
+
+  a {
+
+    color: #fff;
+    text-decoration: underline;
+    
+  }
+
+  a:hover {
+
+    text-transform: uppercase;
+    cursor: pointer;
+  }
