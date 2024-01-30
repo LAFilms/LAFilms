@@ -387,8 +387,6 @@ a {
 
 .center {
 
-    width: 100%;
-    min-height: 600px;
     display: flex;
     justify-content: center;
 
@@ -640,4 +638,12 @@ a {
     justify-content: center;
     margin-top: 20px;
     background: transparent;
+}
+
+
+
+.erro404 {
+
+    
+
 }
