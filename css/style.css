@@ -677,3 +677,9 @@ a {
     justify-items: center;
 
 }
+
+.centrin {
+
+    margin-left: auto;
+    margin-right: auto;
+}
