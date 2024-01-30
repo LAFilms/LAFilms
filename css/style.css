@@ -671,5 +671,9 @@ a {
 
     margin-top: 50px;
     width: 90%;
-    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
 }
