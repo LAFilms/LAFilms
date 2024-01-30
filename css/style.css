@@ -646,9 +646,9 @@ a {
 
 /* CSS */
 .button-34 {
-  background: #5E5DF0;
+  background: #BE9B88;
   border-radius: 999px;
-  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-shadow: black 0 10px 20px -10px;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
@@ -670,5 +670,5 @@ a {
 .botaozin {
 
     margin-top: 50px;
-    padding: 20px;
+    width: 20%;
 }
